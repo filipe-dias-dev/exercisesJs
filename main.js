@@ -23,7 +23,6 @@ if (typeof valueIsNumber == 'number') {
 
 // Crie um script que declare uma variável e verifique se o seu valor é uma string. Se for, exiba a mensagem "É uma string", caso contrário, exiba a mensagem "Não é uma string".
 
-
 const valueIsString = "Filipe"
 
 if (typeof valueIsString == 'string') {
@@ -71,14 +70,12 @@ alert(`${resultDiv}`)
 
 // Crie um script que declare uma variável e verifique se o seu valor é um número par. Se for, exiba a mensagem "É um número par", caso contrário, exiba a mensagem "Não é um número par".
 
-
-
 let isNumberPar = Number (prompt('Digite um número'))
 
 if (isNumberPar % 2 == 0) {
   alert('É um número par')
 } else {
-  alert('Não é um núero par')
+  alert('Não é um número par')
 }
 
 // Crie um script que declare uma variável e verifique se o seu valor é um número ímpar. Se for, exiba a mensagem "É um número ímpar", caso contrário, exiba a mensagem "Não é um número ímpar".
